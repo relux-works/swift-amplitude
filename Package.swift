@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Amplitude",
+    name: "swift-amplitude",
     platforms: [
         .iOS(.v10),
         .tvOS(.v9),
