@@ -15,13 +15,13 @@ let package = Package(
         .library(name: "Amplitude", targets: ["Amplitude"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ivalx1s/darwin-amplitude-ac.git", from: "1.0.010")
+        .package(url: "https://github.com/relux-works/swift-amplitude-ac.git", from: "2.0.0")
     ],
     targets: [
         .target(
             name: "Amplitude",
             dependencies: [
-                .product(name: "AnalyticsConnector", package: "darwin-amplitude-ac")
+                .product(name: "AnalyticsConnector", package: "swift-amplitude-ac")
             ],
             path: "Sources",
             resources: [
